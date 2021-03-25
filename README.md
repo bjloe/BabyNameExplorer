@@ -1,7 +1,9 @@
-In 2014 FiveThirtyEight.com published an article entitled *How to Tell Someone's Age When All You Know Is Her Name,* and I thought that 
-it might be interesting to re-create the FiveThirtyEight analysis in Python (everyone needs a hobby). The article suggested that one might 
-use the median age for a given name as a point estimate for age and also included plots of the median age for popular names, male and 
-female, with bars showing the middle 50%. We'll take those plots as a goal for this notebook.
+In 2014 FiveThirtyEight.com published an article entitled 
+[How to Tell Someone's Age When All You Know Is Her Name](https://fivethirtyeight.com/features/how-to-tell-someones-age-when-all-you-know-is-her-name/), 
+and I thought that it might be interesting to re-create the FiveThirtyEight analysis in Python (everyone needs a hobby). 
+The article suggested that one might use the median age for a given name as a point estimate for age and also included 
+plots of the median age for popular names, male and female, with bars showing the middle 50%. We'll take those plots as 
+a goal for this notebook.
 
 I would like to highlight two key aspects of this analysis. First of all, the data are already aggregated so that one cannot compute the 
 median age by name and gender by a simple application of the built-in methods. However, this provides an opportunity to discuss GroupBy 
